@@ -19,5 +19,9 @@ optional arguments:
 ```
 Sample script:
 ```
-python3 scripts/scrape_images.py --cleanup TRUE --keywords data/keywords.txt --sources data/image_sources.txt --metadata TRUE
+python scripts/scrape_images.py 
+  --cleanup TRUE
+  --keywords 'data/keywords.txt' 
+  --sources 'data/image_sources.txt' 
+  --metadata TRUE
 ```
