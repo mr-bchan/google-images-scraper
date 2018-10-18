@@ -10,7 +10,7 @@ def build_metadata(logs_folder, output_folder):
     output_file = os.path.join(output_folder, output_filename)
     output = []
 
-    print('Reading metadata files stored in {} folder'.format(LOG_FOLDER))
+    print('Reading metadata files stored in {} folder'.format(logs_folder))
 
     for file in files:
         source = file.split()[0].replace('site:','').strip()
